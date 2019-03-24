@@ -2,7 +2,7 @@ public class SlackTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		SlackApi api = new SlackApi("웹훅 주소입니다.");
+		SlackApi api = new SlackApi("https://hooks.slack.com/services/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");
 		SlackAttachment attach = new SlackAttachment();
 		attach.setTitle("    ");
 		attach.setColor("#CC3D3D");
